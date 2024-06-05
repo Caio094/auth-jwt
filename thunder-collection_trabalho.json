@@ -1,0 +1,66 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "trabalho",
+    "collectionId": "64da4986-6125-476d-8bdd-b669234f9d58",
+    "dateExported": "2024-06-05T00:48:09.019Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1f7813a9-bddd-4718-b570-c992e043bf0f",
+            "colId": "64da4986-6125-476d-8bdd-b669234f9d58",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/authRoutes/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-05T00:17:16.365Z",
+            "modified": "2024-06-05T00:23:09.723Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"rafael\",\n  \"email\": \"rafael@teste.com\",\n  \"password\": \"senha123\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "d3a78c50-9f14-45a3-9954-b6a8afedc771",
+            "colId": "64da4986-6125-476d-8bdd-b669234f9d58",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:3000/authRoutes/register",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-06-05T00:20:52.890Z",
+            "modified": "2024-06-05T00:21:48.750Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"pedro\",\n  \"email\": \"pedro@teste.com\",\n  \"password\": \"senha123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "41b39b57-56b9-4730-993b-deb203521f3c",
+            "colId": "64da4986-6125-476d-8bdd-b669234f9d58",
+            "containerId": "",
+            "name": "users",
+            "url": "http://localhost:3000/authRoutes/users",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-06-05T00:35:15.225Z",
+            "modified": "2024-06-05T00:44:46.079Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"rafael\",\n  \"email\": \"rafael@teste.com\",\n  \"password\": \"senha123\"\n}\n",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTcxNzU0ODI2N30.jQ_h8GQfYZUH2YS8Y1FJd1VlMx1RZ1Dvd9iGRqJCmkg"
+            }
+        }
+    ],
+    "ref": "v6Cv3X4mxQnWk6yFPuLVP1_GtnzpEHjX9UvImhKFZqo0YNLjJYrPHGpcOICa8Kptn0v7_k3iMZyg5KWnyoGHVg"
+}
